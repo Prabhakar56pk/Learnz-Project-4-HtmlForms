@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <form action="index.html" method="get">
+      <div>
+        <label for="Username">Username</label>
+        <input type="text" name="Username" id="Username" required placeholder="Enter your username"/>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="Email" id="email" required placeholder="abc@gmail.com"/>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="Password" id="password" required  placeholder="Enter a strong password"/>
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="Age" id="age"  min="18" max="100" required />
+      </div>
+      <div>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="Date of Birth" id="dob"  required/>
+      </div>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
